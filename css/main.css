@@ -3018,3 +3018,11 @@ ul.breadcrumb li:last-child {
     padding: 10px 12px;
   }
 }
+# 我们只需要把原来的 hexo/next/source/css/_custom/_custom.styl 中的全部自定义样式放到 hexo/source/_data/styles.styl 即可。,
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
